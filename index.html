@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- WEBSITE DETAIL -->
+  <title>My Website</title>
+  <meta name="theme-color" content="#00aadc">
+  <meta name="description" content="This is a description of your website, only first 160 characters matters">
+
+  <!-- FAVICON -->
+  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-big.png">
+
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="assets/css/framework.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/dashicons.css">
+
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<section class="main-nav">
+  <h-grid> <div class="nav-col">
+    <!-- Logo -->
+    <div class="nav-logo">
+      <a href="/" class="custom-logo-link">
+        <img src="assets/images/logo.png" class="custom-logo" itemprop="logo">
+      </a>
+    </div>
+
+    <!-- Mobile toggle -->
+    <div id="nav-toggle" class="menu-item nav-toggle">
+      <a>
+        <i class="dashicons-before dashicons-menu"></i> Menu
+      </a>
+    </div>
+
+    <!-- Menu Item -->
+    <nav class="nav-wrapper">
+      <div class="menu-item current-menu-item">
+        <a href="/"> Home </a>
+      </div>
+      <div class="menu-item">
+        <a href="/about"> About </a>
+
+        <div class="nav-children">
+          <a href="/about#history"> History </a>
+          <a href="/about#location"> Location </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menu Item aligned-right and still shown on mobile -->
+    <div class="nav-extra">
+      <form class="menu-item search-form" method="get" action="/search">
+        <input id="search" type="search" name="s" placeholder="Search">
+        <label for="search" class="search-toggle"> <i class="dashicons-before dashicons-search"></i> </label>
+      </form>
+    </div>
+
+</div> </h-grid>
+</section>
+
+<!-- MAIN CONTENT -->
+<div id="main-wrapper">
+
+  <!-- Place content here -->
+  <h-grid>
+    <article class="large-12">
+      <h1>Hello World</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quae, nostrum quo esse, repellendus deleniti eligendi impedit voluptas voluptatibus obcaecati.</p>
+    </article>
+  </h-grid>
+
+  <div id="footer-push"></div>
+</div>
+<footer class="main-footer"></footer>
+
+<!-- JAVASCRIPT LIBRARY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
